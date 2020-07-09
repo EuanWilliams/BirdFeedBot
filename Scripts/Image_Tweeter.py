@@ -3,8 +3,8 @@ import tweepy
 import os
 import time
 
-auth = tweepy.OAuthHandler("LSCup96guz1IpLIpRBauC3gK9", "3bFH0pmrT5UNn8Jl7yCi36Xe0LFLqmwOjTpRCvSM6ebgMVVJig")
-auth.set_access_token("1270695884280520704-4VtBMNGk6iuFKYFSMuJh0o5JUbzC1R", "JAVfw6VycL8hLnvGb4ZKJHXN7FPBfKjsMNNY9DbnKprkD")
+auth = tweepy.OAuthHandler("", "")
+auth.set_access_token("", "")
 api = tweepy.API(auth)
 
 # function to ask @euan_williams1 account what to do with images
